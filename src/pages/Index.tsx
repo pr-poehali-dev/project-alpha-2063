@@ -34,7 +34,7 @@ export default function Index() {
               </button>
             </div>
           </div>
-          <div className="hero-img" style={{ backgroundImage: "url('https://cdn.poehali.dev/projects/3b4fd30c-8c16-4f13-8d49-66e73a9fc3a1/files/ba23d173-5bdb-4578-8716-bade84733db1.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}>
+          <div className="hero-img" style={{ backgroundImage: "url('https://cdn.poehali.dev/projects/3b4fd30c-8c16-4f13-8d49-66e73a9fc3a1/bucket/a2211419-11d3-4f58-b32a-2697ac69e607.png')", backgroundSize: "cover", backgroundPosition: "center" }}>
             <div className="sticker">
               ГАРАНТИЯ
               <br />
