@@ -4,7 +4,7 @@ export default function Index() {
       <div className="grain-overlay" />
 
       <header className="header">
-        <div className="logo">CHROME*GARAGE</div>
+        <div className="logo">A-STAR</div>
         <nav>
           <a href="#services">Услуги</a>
           <a href="#about">О нас</a>
@@ -196,7 +196,7 @@ export default function Index() {
 
       <footer id="footer">
         <div>
-          <div className="footer-logo">CHROME*GARAGE</div>
+          <div className="footer-logo">A-STAR</div>
           <p style={{ color: "#666", lineHeight: 1.6 }}>
             Детейлинг студия для тех, кто любит своё авто. Полировка, керамика, химчистка и оклейка плёнкой с гарантией.
           </p>
@@ -236,7 +236,7 @@ export default function Index() {
           </ul>
         </div>
         <div className="footer-bottom">
-          <span>2025 CHROME GARAGE</span>
+          <span>2025 A-STAR</span>
           <span>ЗАЩИТА И БЛЕСК</span>
           <span>IG / TG / VK</span>
         </div>
