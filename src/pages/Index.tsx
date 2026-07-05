@@ -4,77 +4,77 @@ export default function Index() {
       <div className="grain-overlay" />
 
       <header className="header">
-        <div className="logo">VINYL*DINER</div>
+        <div className="logo">CHROME*GARAGE</div>
         <nav>
-          <a href="#">Меню</a>
-          <a href="#">О нас</a>
-          <a href="#">Афиша</a>
-          <a href="#">Адреса</a>
+          <a href="#services">Услуги</a>
+          <a href="#about">О нас</a>
+          <a href="#gallery">Работы</a>
+          <a href="#footer">Контакты</a>
         </nav>
-        <button className="btn-cta">Забронировать</button>
+        <button className="btn-cta">Записаться</button>
       </header>
 
       <main>
         <section className="hero">
           <div className="hero-content">
             <h1 className="hero-title">
-              БЕЗ ПОНТОВ,
+              БЕЗ ЦАРАПИН,
               <br />
-              ТОЛЬКО <span>ВКУС</span>
+              ТОЛЬКО <span>БЛЕСК</span>
             </h1>
             <p className="text-base md:text-lg lg:text-xl mb-8 md:mb-10 leading-relaxed text-[#555]">
-              Эстетика 70-х в современной подаче. Локальные продукты, огненные блюда и атмосфера для настоящих ценителей.
+              Детейлинг студия в стиле 70-х. Полировка, химчистка, керамика и оклейка плёнкой — вернём вашему авто заводской блеск и защитим на годы.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
               <button className="btn-cta" style={{ background: "var(--primary)", color: "white" }}>
-                Заказать
+                Записаться на детейлинг
               </button>
               <button className="btn-cta" style={{ background: "white" }}>
-                Смотреть меню
+                Смотреть услуги
               </button>
             </div>
           </div>
-          <div className="hero-img">
+          <div className="hero-img" style={{ backgroundImage: "url('https://cdn.poehali.dev/projects/3b4fd30c-8c16-4f13-8d49-66e73a9fc3a1/files/ba23d173-5bdb-4578-8716-bade84733db1.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}>
             <div className="sticker">
-              СВЕЖАК
+              ГАРАНТИЯ
               <br />
-              КАЖДЫЙ ДЕНЬ
+              КАЧЕСТВА
             </div>
             <div className="floating-tag hidden md:block" style={{ top: "20%", left: "10%" }}>
-              #ЭСТЕТИКА
+              #ЗЕРКАЛО
             </div>
             <div className="floating-tag hidden md:block" style={{ bottom: "30%", right: "20%" }}>
-              ОГОНЬ
+              БЛЕСК
             </div>
           </div>
         </section>
 
         <div className="marquee">
           <div className="marquee-content">
-            &nbsp; * БУРГЕРЫ КОТОРЫЕ РВУТ * КРАФТОВЫЕ КОКТЕЙЛИ * ТОЛЬКО РЕТРО ВАЙБ * ОТКРЫТЫ ДО 2:00 * ЛУЧШИЕ В ГОРОДЕ *
-            БУРГЕРЫ КОТОРЫЕ РВУТ * КРАФТОВЫЕ КОКТЕЙЛИ * ТОЛЬКО РЕТРО ВАЙБ * ОТКРЫТЫ ДО 2:00 * ЛУЧШИЕ В ГОРОДЕ
+            &nbsp; * ПОЛИРОВКА КУЗОВА * ХИМЧИСТКА САЛОНА * КЕРАМИЧЕСКОЕ ПОКРЫТИЕ * ОКЛЕЙКА ПЛЁНКОЙ * ЗАЩИТА НА ГОДЫ *
+            ПОЛИРОВКА КУЗОВА * ХИМЧИСТКА САЛОНА * КЕРАМИЧЕСКОЕ ПОКРЫТИЕ * ОКЛЕЙКА ПЛЁНКОЙ * ЗАЩИТА НА ГОДЫ
           </div>
         </div>
 
-        <section className="section-padding">
+        <section className="section-padding" id="services">
           <div className="section-header">
-            <h2 className="section-title">ВЫБОР ШЕФА</h2>
+            <h2 className="section-title">НАШИ УСЛУГИ</h2>
             <a
-              href="#"
+              href="#footer"
               className="text-sm md:text-base"
               style={{ color: "var(--dark)", fontWeight: 800, textTransform: "uppercase" }}
             >
-              Всё меню
+              Все цены
             </a>
           </div>
 
           <div className="menu-grid">
-            {/* Item 1 */}
+            {/* Услуга 1 */}
             <div className="menu-card">
-              <span className="menu-tag">Хит продаж</span>
+              <span className="menu-tag">Хит</span>
               <img
-                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Классический бургер"
+                src="https://cdn.poehali.dev/projects/3b4fd30c-8c16-4f13-8d49-66e73a9fc3a1/files/f0fb08b4-3e83-478b-a7c4-ebe4496f9db8.jpg"
+                alt="Керамическое покрытие"
               />
               <div className="menu-card-body">
                 <div
@@ -85,23 +85,23 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Классика</h3>
-                  <span className="price">1 400 ₽</span>
+                  <h3>Керамика</h3>
+                  <span className="price">от 18 000 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Тройной смэш из мраморной говядины, фирменный соус, маринованные огурцы на бриоши.
+                  Многослойное керамическое покрытие. Защита от царапин, грязи и УФ на 2-3 года.
                 </p>
               </div>
             </div>
 
-            {/* Item 2 */}
+            {/* Услуга 2 */}
             <div className="menu-card">
               <span className="menu-tag" style={{ background: "var(--secondary)" }}>
-                Острое
+                Блеск
               </span>
               <img
-                src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Неоновая пицца"
+                src="https://cdn.poehali.dev/projects/3b4fd30c-8c16-4f13-8d49-66e73a9fc3a1/files/ba23d173-5bdb-4578-8716-bade84733db1.jpg"
+                alt="Полировка кузова"
               />
               <div className="menu-card-body">
                 <div
@@ -112,21 +112,21 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Электро Пепперони</h3>
-                  <span className="price">1 800 ₽</span>
+                  <h3>Полировка кузова</h3>
+                  <span className="price">от 9 000 ₽</span>
                 </div>
-                <p style={{ fontSize: "14px", color: "#666" }}>Двойная пепперони, острый мёд, тесто на закваске.</p>
+                <p style={{ fontSize: "14px", color: "#666" }}>Уберём вихры и царапины, вернём заводской глубокий блеск.</p>
               </div>
             </div>
 
-            {/* Item 3 */}
+            {/* Услуга 3 */}
             <div className="menu-card">
               <span className="menu-tag" style={{ background: "var(--accent)", color: "var(--dark)" }}>
-                Популярное
+                Чистота
               </span>
               <img
-                src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Диско Сауэр"
+                src="https://cdn.poehali.dev/projects/3b4fd30c-8c16-4f13-8d49-66e73a9fc3a1/files/4cc7add0-0ab6-403d-8916-91e01360c7e3.jpg"
+                alt="Химчистка салона"
               />
               <div className="menu-card-body">
                 <div
@@ -137,92 +137,91 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Диско Сауэр</h3>
-                  <span className="price">1 200 ₽</span>
+                  <h3>Химчистка салона</h3>
+                  <span className="price">от 6 500 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Джин, цветок бузины, голубой чай и съедобная золотая пыльца.
+                  Глубокая чистка сидений, потолка и пластика. Салон как новый — без запахов и пятен.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        <section className="retro-vibe">
+        <section className="retro-vibe" id="about">
           <div>
-            <h2 className="vibe-title">ВАЙБ-ЧЕК ПРОЙДЕН.</h2>
+            <h2 className="vibe-title">РАБОТАЕМ РУКАМИ И ДУШОЙ.</h2>
             <p className="vibe-text">
-              Мы не просто кормим. Мы создаём моменты. От плейлиста хип-хопа 90-х до диванов в стиле 70-х — каждый уголок
-              продуман для твоего идеального кадра. Бронь не нужна, просто приходи с настроением.
+              Мы не гоним конвейер. Каждое авто проходит через руки мастера с опытом 10+ лет. Профессиональная химия, немецкое оборудование и внимание к каждой детали — от дисков до подстаканников. Отдаём машину только когда сами в восторге.
             </p>
             <button className="btn-cta" style={{ background: "var(--dark)", color: "white", borderColor: "white" }}>
-              Наша история
+              О студии
             </button>
           </div>
-          <div className="vibe-img"></div>
+          <div className="vibe-img" style={{ backgroundImage: "url('https://cdn.poehali.dev/projects/3b4fd30c-8c16-4f13-8d49-66e73a9fc3a1/files/4cc7add0-0ab6-403d-8916-91e01360c7e3.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}></div>
         </section>
 
-        <section className="section-padding">
+        <section className="section-padding" id="gallery">
           <h2 className="section-title" style={{ marginBottom: "40px", textAlign: "center" }}>
-            @VINYL.DINER
+            НАШИ РАБОТЫ
           </h2>
           <div className="social-grid">
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 1"
+                src="https://cdn.poehali.dev/projects/3b4fd30c-8c16-4f13-8d49-66e73a9fc3a1/files/ba23d173-5bdb-4578-8716-bade84733db1.jpg"
+                alt="Работа 1"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 2"
+                src="https://cdn.poehali.dev/projects/3b4fd30c-8c16-4f13-8d49-66e73a9fc3a1/files/f0fb08b4-3e83-478b-a7c4-ebe4496f9db8.jpg"
+                alt="Работа 2"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 3"
+                src="https://cdn.poehali.dev/projects/3b4fd30c-8c16-4f13-8d49-66e73a9fc3a1/files/4cc7add0-0ab6-403d-8916-91e01360c7e3.jpg"
+                alt="Работа 3"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 4"
+                src="https://cdn.poehali.dev/projects/3b4fd30c-8c16-4f13-8d49-66e73a9fc3a1/files/ba23d173-5bdb-4578-8716-bade84733db1.jpg"
+                alt="Работа 4"
               />
             </div>
           </div>
         </section>
       </main>
 
-      <footer>
+      <footer id="footer">
         <div>
-          <div className="footer-logo">VINYL*DINER</div>
+          <div className="footer-logo">CHROME*GARAGE</div>
           <p style={{ color: "#666", lineHeight: 1.6 }}>
-            Твоё место для еды высокого качества и лоу-фай атмосферы. С 2024, но ощущается как 1974.
+            Детейлинг студия для тех, кто любит своё авто. Полировка, керамика, химчистка и оклейка плёнкой с гарантией.
           </p>
         </div>
         <div className="footer-links">
-          <h4>Навигация</h4>
+          <h4>Услуги</h4>
           <ul>
             <li>
-              <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Меню
+              <a href="#services" style={{ color: "inherit", textDecoration: "none" }}>
+                Полировка кузова
               </a>
             </li>
             <li>
-              <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                О нас
+              <a href="#services" style={{ color: "inherit", textDecoration: "none" }}>
+                Керамическое покрытие
               </a>
             </li>
             <li>
-              <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Политика
+              <a href="#services" style={{ color: "inherit", textDecoration: "none" }}>
+                Химчистка салона
               </a>
             </li>
             <li>
-              <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Условия
+              <a href="#services" style={{ color: "inherit", textDecoration: "none" }}>
+                Оклейка плёнкой
               </a>
             </li>
           </ul>
@@ -230,16 +229,16 @@ export default function Index() {
         <div className="footer-links">
           <h4>Часы работы</h4>
           <ul>
-            <li>Вт-Чт: 12:00 - 23:00</li>
-            <li>Пт-Сб: 12:00 - 02:00</li>
-            <li>Вс: 11:00 - 21:00</li>
-            <li>Пн: Выходной</li>
+            <li>Пн-Пт: 09:00 - 21:00</li>
+            <li>Сб: 10:00 - 20:00</li>
+            <li>Вс: 10:00 - 18:00</li>
+            <li>Запись по телефону</li>
           </ul>
         </div>
         <div className="footer-bottom">
-          <span>2025 VINYL DINER</span>
-          <span>ВКУС КЛАССИКИ</span>
-          <span>IG / TW / TK</span>
+          <span>2025 CHROME GARAGE</span>
+          <span>ЗАЩИТА И БЛЕСК</span>
+          <span>IG / TG / VK</span>
         </div>
       </footer>
     </>
