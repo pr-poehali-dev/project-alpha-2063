@@ -437,6 +437,22 @@ nav a:hover {
   padding: 20px;
 }
 
+.menu-card-body h3 {
+  font-family: "Unbounded", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+  color: var(--dark);
+  line-height: 1.15;
+}
+
+@media (min-width: 768px) {
+  .menu-card-body h3 {
+    font-size: 22px;
+  }
+}
+
 .menu-tag {
   background: var(--primary);
   color: white;
