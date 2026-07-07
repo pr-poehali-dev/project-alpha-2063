@@ -17,7 +17,7 @@ export default function Index() {
               <br />
               ТОЛЬКО <span>БЛЕСК</span>
             </h1>
-            <p className="text-base md:text-lg lg:text-xl mb-8 md:mb-10 leading-relaxed text-[#555]">Современная детейлинг студия. Полировка, химчистка, керамика и оклейка плёнкой — вернём Вашему автомобилю заводской блеск и защитим на годы.</p>
+            <p className="text-base md:text-lg lg:text-xl md:mb-10 leading-relaxed text-[#555] my-[7px] px-0 mx-0 py-[7px]">Современная детейлинг студия. Вернём Вашему автомобилю заводской блеск и защитим на годы.</p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
               <button className="btn-cta" style={{ background: "var(--primary)", color: "white" }}>
                 Записаться на детейлинг
