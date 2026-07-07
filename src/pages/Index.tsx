@@ -22,7 +22,7 @@ export default function Index() {
               <button className="btn-cta" style={{ background: "var(--primary)", color: "white" }}>
                 Записаться на детейлинг
               </button>
-              <Link to="/pricing" className="btn-cta" style={{ background: "white" }}>Узнать цены</Link>
+              <Link to="/pricing" className="btn-cta" style={{ background: "white" }}>Прайс-лист</Link>
             </div>
           </div>
           <div className="hero-img" style={{ backgroundImage: "url('https://cdn.poehali.dev/projects/3b4fd30c-8c16-4f13-8d49-66e73a9fc3a1/bucket/a2211419-11d3-4f58-b32a-2697ac69e607.png')", backgroundSize: "cover", backgroundPosition: "center" }}>
