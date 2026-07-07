@@ -123,7 +123,7 @@ export default function Index() {
                 Чистота
               </span>
               <img
-                src="https://cdn.poehali.dev/projects/3b4fd30c-8c16-4f13-8d49-66e73a9fc3a1/files/4cc7add0-0ab6-403d-8916-91e01360c7e3.jpg"
+                src="https://cdn.poehali.dev/projects/3b4fd30c-8c16-4f13-8d49-66e73a9fc3a1/bucket/d3784629-0208-4f57-bc68-57f047f83221.PNG"
                 alt="Химчистка салона"
               />
               <div className="menu-card-body">
