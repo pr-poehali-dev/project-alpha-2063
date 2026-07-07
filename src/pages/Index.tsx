@@ -83,8 +83,8 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Керамика</h3>
-                  <span className="price">от 18 000 ₽</span>
+                  <h3>Керамическое покрытие </h3>
+                  <span className="price text-orange-600">от 18 000 </span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
                   Многослойное керамическое покрытие. Защита от царапин, грязи и УФ на 2-3 года.
