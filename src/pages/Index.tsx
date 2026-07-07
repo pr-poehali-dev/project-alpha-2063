@@ -151,9 +151,7 @@ export default function Index() {
             <h2 className="vibe-title">РАБОТАЕМ РУКАМИ И ДУШОЙ.</h2>
             <p className="vibe-text text-[#ffffff] font-medium">Мы работаем только на результат. Каждый автомобиль проходит через руки мастера с большим опытом. Профессиональная химия, современное оборудование и внимание к каждой детали — от дисков до подстаканников, вот наш подход! 
 И да, отдаём машину только когда сами в восторге от результата 😎</p>
-            <button className="btn-cta" style={{ background: "var(--dark)", color: "white", borderColor: "white" }}>
-              О студии
-            </button>
+            <button className="btn-cta" style={{ background: "var(--dark)", color: "white", borderColor: "white" }}>Подробнее</button>
           </div>
           <div className="vibe-img" style={{ backgroundImage: "url('https://cdn.poehali.dev/projects/3b4fd30c-8c16-4f13-8d49-66e73a9fc3a1/files/4cc7add0-0ab6-403d-8916-91e01360c7e3.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}></div>
         </section>
