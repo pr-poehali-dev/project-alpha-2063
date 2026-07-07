@@ -233,7 +233,7 @@ export default function Index() {
           </ul>
         </div>
         <div className="footer-bottom">
-          <span>2025 A-STAR</span>
+          <span>2026 A-STAR</span>
           <span>ЗАЩИТА И БЛЕСК</span>
           <span>IG / TG / VK</span>
         </div>
