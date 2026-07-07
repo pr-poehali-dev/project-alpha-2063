@@ -45,6 +45,14 @@ const priceGroups: PriceGroup[] = [
       { name: "Тонировка стёкол", sedan: "7 000 ₽", crossover: "9 000 ₽" },
     ],
   },
+  {
+    title: "Детейлинг мойка",
+    rows: [
+      { name: "Бесконтактная мойка", sedan: "6 000 ₽", crossover: "7 500 ₽" },
+      { name: "Чернение резины", sedan: "1 000 ₽", crossover: "1 200 ₽" },
+      { name: "Полировка стёкол", sedan: "2 500 ₽", crossover: "3 000 ₽" },
+    ],
+  },
 ];
 
 export default function Pricing() {

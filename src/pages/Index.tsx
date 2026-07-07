@@ -135,6 +135,33 @@ export default function Index() {
                 </p>
               </div>
             </div>
+
+            {/* Услуга 4 */}
+            <div className="menu-card">
+              <span className="menu-tag" style={{ background: "var(--primary)", color: "white" }}>
+                Уход
+              </span>
+              <img
+                src="https://cdn.poehali.dev/projects/3b4fd30c-8c16-4f13-8d49-66e73a9fc3a1/files/9e103d20-c0a0-4340-84d7-ff3b5133de73.jpg"
+                alt="Детейлинг мойка"
+              />
+              <div className="menu-card-body">
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    marginBottom: "10px",
+                  }}
+                >
+                  <h3>Детейлинг мойка</h3>
+                  <span className="price">от 6 000 ₽</span>
+                </div>
+                <p style={{ fontSize: "14px", color: "#666" }}>
+                  Бережная ручная мойка с бесконтактной пеной, чернение резины и полировка стёкол.
+                </p>
+              </div>
+            </div>
           </div>
         </section>
 
