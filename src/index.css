@@ -705,6 +705,76 @@ footer {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/76/1k_Noise_Texture.png");
 }
 
+/* Pricing Page */
+.price-group {
+  margin-bottom: 40px;
+  border: var(--border);
+  background: white;
+}
+
+.price-group-title {
+  font-family: "Unbounded", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: white;
+  background: var(--dark);
+  padding: 14px 20px;
+}
+
+@media (min-width: 768px) {
+  .price-group-title {
+    font-size: 24px;
+    padding: 16px 30px;
+  }
+}
+
+.price-table {
+  display: flex;
+  flex-direction: column;
+}
+
+.price-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 10px;
+  padding: 14px 20px;
+  border-bottom: 2px solid #eee;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .price-row {
+    padding: 16px 30px;
+    font-size: 16px;
+  }
+}
+
+.price-row:last-child {
+  border-bottom: none;
+}
+
+.price-row-head {
+  font-family: "Unbounded", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 12px;
+  background: var(--bg);
+  border-bottom: var(--border);
+}
+
+@media (min-width: 768px) {
+  .price-row-head {
+    font-size: 14px;
+  }
+}
+
+.price-value {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  color: var(--secondary);
+}
+
 /* Floating Tags */
 .floating-tag {
   position: absolute;

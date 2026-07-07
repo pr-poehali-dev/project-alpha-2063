@@ -1,18 +1,12 @@
+import SiteHeader from "@/components/SiteHeader";
+import SiteFooter from "@/components/SiteFooter";
+
 export default function Index() {
   return (
     <>
       <div className="grain-overlay" />
 
-      <header className="header">
-        <div className="logo">A-STAR</div>
-        <nav>
-          <a href="#services">Услуги</a>
-          <a href="#about">О нас</a>
-          <a href="#gallery">Работы</a>
-          <a href="#footer">Контакты</a>
-        </nav>
-        <button className="btn-cta">Записаться</button>
-      </header>
+      <SiteHeader />
 
       <main>
         <section className="hero">
@@ -58,7 +52,7 @@ export default function Index() {
           <div className="section-header">
             <h2 className="section-title">НАШИ УСЛУГИ</h2>
             <a
-              href="#footer"
+              href="/pricing"
               className="text-sm md:text-base"
               style={{ color: "var(--dark)", fontWeight: 800, textTransform: "uppercase" }}
             >
@@ -189,53 +183,7 @@ export default function Index() {
         </section>
       </main>
 
-      <footer id="footer">
-        <div>
-          <div className="footer-logo">A-STAR</div>
-          <p style={{ color: "#666", lineHeight: 1.6 }}>
-            Детейлинг студия для тех, кто любит своё авто. Полировка, керамика, химчистка и оклейка плёнкой с гарантией.
-          </p>
-        </div>
-        <div className="footer-links">
-          <h4>Услуги</h4>
-          <ul>
-            <li>
-              <a href="#services" style={{ color: "inherit", textDecoration: "none" }}>
-                Полировка кузова
-              </a>
-            </li>
-            <li>
-              <a href="#services" style={{ color: "inherit", textDecoration: "none" }}>
-                Керамическое покрытие
-              </a>
-            </li>
-            <li>
-              <a href="#services" style={{ color: "inherit", textDecoration: "none" }}>
-                Химчистка салона
-              </a>
-            </li>
-            <li>
-              <a href="#services" style={{ color: "inherit", textDecoration: "none" }}>
-                Оклейка плёнкой
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div className="footer-links">
-          <h4>Часы работы</h4>
-          <ul>
-            <li>Пн-Пт: 09:00 - 21:00</li>
-            <li>Сб: 10:00 - 20:00</li>
-            <li>Вс: 10:00 - 18:00</li>
-            <li>Запись по телефону</li>
-          </ul>
-        </div>
-        <div className="footer-bottom">
-          <span>2026 A-STAR</span>
-          <span>ЗАЩИТА И БЛЕСК</span>
-          <span>IG / TG / VK</span>
-        </div>
-      </footer>
+      <SiteFooter />
     </>
   );
 }
