@@ -69,7 +69,7 @@ export default function Index() {
               />
               <div className="menu-card-body">
                 <div className="menu-card-header">
-                  <h3>Керамическое покрытие</h3>
+                  <h3>Керамика</h3>
                   <span className="price">от 18 000 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
