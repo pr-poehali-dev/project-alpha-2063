@@ -437,6 +437,15 @@ nav a:hover {
   padding: 20px;
 }
 
+.menu-card-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px 14px;
+  margin-bottom: 10px;
+}
+
 .menu-card-body h3 {
   font-family: "Unbounded", sans-serif;
   font-size: 20px;
@@ -445,6 +454,8 @@ nav a:hover {
   letter-spacing: -0.5px;
   color: var(--dark);
   line-height: 1.15;
+  flex: 1 1 55%;
+  min-width: 0;
 }
 
 @media (min-width: 768px) {
@@ -467,9 +478,17 @@ nav a:hover {
 
 .price {
   font-family: "Playfair Display", serif;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
-  color: var(--secondary);
+  color: var(--primary);
+  white-space: nowrap;
+  flex: 0 0 auto;
+}
+
+@media (min-width: 768px) {
+  .price {
+    font-size: 22px;
+  }
 }
 
 /* Vinyl Vibe Section */
@@ -772,7 +791,7 @@ footer {
 .price-value {
   font-family: "Playfair Display", serif;
   font-weight: 700;
-  color: var(--secondary);
+  color: var(--primary);
 }
 
 /* Floating Tags */

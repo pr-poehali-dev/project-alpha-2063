@@ -68,16 +68,9 @@ export default function Index() {
                 alt="Керамическое покрытие"
               />
               <div className="menu-card-body">
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    marginBottom: "10px",
-                  }}
-                >
-                  <h3>Керамическое покрытие </h3>
-                  <span className="price text-orange-600">от 18 000 </span>
+                <div className="menu-card-header">
+                  <h3>Керамическое покрытие</h3>
+                  <span className="price">от 18 000 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
                   Многослойное керамическое покрытие. Защита от царапин, грязи и УФ на 2-3 года.
@@ -95,14 +88,7 @@ export default function Index() {
                 alt="Полировка кузова"
               />
               <div className="menu-card-body">
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    marginBottom: "10px",
-                  }}
-                >
+                <div className="menu-card-header">
                   <h3>Полировка кузова</h3>
                   <span className="price">от 9 000 ₽</span>
                 </div>
@@ -120,14 +106,7 @@ export default function Index() {
                 alt="Химчистка салона"
               />
               <div className="menu-card-body">
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    marginBottom: "10px",
-                  }}
-                >
+                <div className="menu-card-header">
                   <h3>Химчистка салона</h3>
                   <span className="price">от 6 500 ₽</span>
                 </div>
@@ -147,14 +126,7 @@ export default function Index() {
                 alt="Детейлинг мойка"
               />
               <div className="menu-card-body">
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    marginBottom: "10px",
-                  }}
-                >
+                <div className="menu-card-header">
                   <h3>Детейлинг мойка</h3>
                   <span className="price">от 6 000 ₽</span>
                 </div>
