@@ -67,9 +67,7 @@ export default function Pricing() {
           <h1 className="section-title" style={{ marginBottom: "20px" }}>
             ЦЕНЫ
           </h1>
-          <p className="text-base md:text-lg mb-8 md:mb-10" style={{ color: "#555" }}>
-            Полный прайс-лист на все услуги детейлинг-студии A-STAR. Итоговая стоимость зависит от состояния и марки автомобиля.
-          </p>
+          <p className="text-base md:text-lg mb-8 md:mb-10" style={{ color: "#555" }}>Полный прайс-лист на все услуги детейлинг-студии A-STAR. Итоговая стоимость зависит от состояния и размеров автомобиля.</p>
 
           {priceGroups.map((group) => (
             <div key={group.title} className="price-group">
