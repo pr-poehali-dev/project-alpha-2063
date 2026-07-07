@@ -140,7 +140,7 @@ export default function Index() {
 
         <section className="retro-vibe" id="about">
           <div>
-            <h2 className="vibe-title">РАБОТАЕМ РУКАМИ И ДУШОЙ.</h2>
+            <h2 className="vibe-title">РАБОТАЕМ РУКАМИ И ДУШОЙ</h2>
             <p className="vibe-text text-[#ffffff] font-medium">Мы работаем только на результат. Каждый автомобиль проходит через руки мастера с большим опытом. Профессиональная химия, современное оборудование и внимание к каждой детали — от дисков до подстаканников, вот наш подход! 
 И да, отдаём машину только когда сами в восторге от результата 😎</p>
             <button className="btn-cta" style={{ background: "var(--dark)", color: "white", borderColor: "white" }}>Подробнее</button>
